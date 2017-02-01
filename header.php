@@ -24,25 +24,11 @@ new WOW().init();
 
 <body <?php body_class(); ?>>
 <div id="page">
-	<nav id="redes">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-md-offset-9">
-					<ul class="redes_sociais_header">
-		              <li class="youtube"><a target="_blank" href="#"></a></li>
-		              <li class="instagram"><a target="_blank" href="#"></a></li>
-		              <li class="twitter"><a target="_blank" href="#"></a></li>
-		              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871"></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
 	<nav id="principal">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-left">
-					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.jpg"; ?>" /></a>
+					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro logo img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" /></a>
 				</div>
 				<div class="col-md-9">
 					<div class="menu-responsivo">
@@ -58,11 +44,18 @@ new WOW().init();
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a class="criar-conta" href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>								
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>
+						<div id="redes">
+						<ul class="redes_sociais_header">
+			              <li class="youtube"><a target="_blank" href="#"></a></li>
+			              <li class="instagram"><a target="_blank" href="#"></a></li>
+			              <li class="twitter"><a target="_blank" href="#"></a></li>
+			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871"></a></li>
+						</ul>
+						</div>
+						<div class="menu-op"><a class="hvr-underline-from-left" href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>								
+						<div class="menu-op"><a class="hvr-underline-from-left" href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></div>
+						<div class="menu-op"><a class="hvr-underline-from-left" href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></div>
+						<div class="menu-op"><a class="hvr-underline-from-left" href="<?php echo home_url( '/' ); ?>">Home</a></div>
 					</div>
 				</div>					
 			</div>

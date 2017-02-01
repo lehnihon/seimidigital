@@ -1,5 +1,25 @@
 ( function( $ ) {
+    var offset = $('#principal').offset().top;
+    var $meuMenu = $('#principal'); // guardar o elemento na memoria para melhorar performance
+    $(document).on('scroll', function () {
+
+        if (1 <= $(window).scrollTop()) {
+            $meuMenu.addClass('fixar');
+            $('.logo').attr("src", "/wp-content/themes/datapontual/images/logo-small.png");
+        } else {
+            $meuMenu.removeClass('fixar animated fadeInDown');
+            $('.logo').attr("src", "/wp-content/themes/datapontual/images/logo.png");
+        }
+    });
+
   	$(function() {
+
+    $('#page').fullpage({
+      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+      menu: '#menu',
+      scrollBar: true
+    });
+
         $('.videoWrapper').click(function () {
             $('.videoWrapper iframe').css("pointer-events", "auto");
         });
@@ -42,22 +62,6 @@
 			$(".form-data").addClass('animated fadeInUp');
 		}
 	})
-
-    var offset = $('#principal').offset().top;
-    var $meuMenu = $('#principal'); // guardar o elemento na memoria para melhorar performance
-    $(document).on('scroll', function () {
-        if (offset <= $(window).scrollTop()-100) {
-            $meuMenu.addClass('fixar');
-            $meuMenu.addClass('animated fadeInDown');
-            $('.tel').attr("src", "/wp-content/themes/datapontual/images/telb.png");
-            $('.email').attr("src", "/wp-content/themes/datapontual/images/e-mailb.png");
-        } else {
-            $meuMenu.removeClass('fixar animated fadeInDown');
-
-            $('.tel').attr("src", "/wp-content/themes/datapontual/images/tel.png");
-            $('.email').attr("src", "/wp-content/themes/datapontual/images/e-mail.png");
-        }
-    });
 
 	$('.ref-com').on('mouseenter',function(){
 	   $('.e2').attr("class", "animated fadeInUp");
