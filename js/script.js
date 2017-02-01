@@ -5,10 +5,10 @@
 
         if (1 <= $(window).scrollTop()) {
             $meuMenu.addClass('fixar');
-            $('.logo').attr("src", "/wp-content/themes/datapontual/images/logo-small.png");
+            $('.logo').attr("src", "/wp-content/themes/seimidigital/images/logo-small.png");
         } else {
             $meuMenu.removeClass('fixar animated fadeInDown');
-            $('.logo').attr("src", "/wp-content/themes/datapontual/images/logo.png");
+            $('.logo').attr("src", "/wp-content/themes/seimidigital/images/logo.png");
         }
     });
 
