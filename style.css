@@ -33,16 +33,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin: 0; }
   #page h1 {
     color: #514aa3;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold; }
   #page h2 {
     color: #514aa3;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold; }
   #page h4 {
     font-size: 18px; }
   #page h5 {
-    font-size: 14px; }
+    font-size: 16px; }
   #page #topo {
     background-color: black; }
   #page div#redes {
@@ -108,6 +108,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     transition: background-color 0.5s linear, padding 0.5s linear; }
     #page nav#principal div.menu-header {
       margin-top: 15px; }
+      #page nav#principal div.menu-header div.active a {
+        border-bottom: 2px solid #FFFFFF; }
       #page nav#principal div.menu-header div.menu-op {
         margin-top: 3px;
         float: right;
@@ -145,202 +147,42 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: none; }
     #page ul.menu-header {
       display: block; } }
-  #page #sobre-home {
-    padding: 60px 0; }
-    #page #sobre-home h4 {
-      color: #514aa3;
-      font-weight: bold;
-      margin-bottom: 20px;
-      margin-top: 30px; }
-    #page #sobre-home h5 {
-      line-height: 22px; }
+  #page #servicos h2 {
+    margin-bottom: 10px; }
+  #page #servicos h4 {
+    color: #514aa3;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px; }
+  #page #servicos h5 {
+    line-height: 22px; }
+  #page #servicos ul {
+    color: #514aa3;
+    padding-left: 15px; }
+    #page #servicos ul li span {
+      color: #858585; }
   #page #sobre {
-    padding: 60px 0; }
-    #page #sobre h4 {
-      color: #514aa3;
-      font-weight: bold;
-      margin-bottom: 20px;
-      margin-top: 30px; }
+    background-image: url("images/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    #page #sobre h1, #page #sobre h5, #page #sobre p {
+      color: #FFFFFF; }
+    #page #sobre h1 {
+      margin-bottom: 30px; }
     #page #sobre h5 {
-      line-height: 22px; }
-  #page #sobre-reformas {
-    padding: 60px 0;
-    background-color: #514aa3;
-    color: #FFFFFF; }
-    #page #sobre-reformas h4 {
-      color: #FFFFFF;
-      font-weight: bold;
-      margin-bottom: 20px;
-      margin-top: 30px; }
-    #page #sobre-reformas h2 {
-      color: #FFFFFF; }
-    #page #sobre-reformas h5 {
-      color: #FFFFFF;
-      line-height: 22px; }
-  #page #solucoes-home {
-    padding: 60px 0;
-    background-color: #514aa3; }
-    #page #solucoes-home h2 {
-      color: #FFFFFF; }
-    #page #solucoes-home h5 {
-      color: #FFFFFF;
-      line-height: 22px; }
-    #page #solucoes-home p {
-      color: #FFFFFF;
-      margin-top: 30px; }
-    #page #solucoes-home a:hover {
-      font-weight: bold; }
-  #page #solucoes-sobre {
-    padding-top: 150px;
-    padding-bottom: 60px;
-    background-color: #f6f8fb; }
-    #page #solucoes-sobre h2 {
-      color: #514aa3; }
-    #page #solucoes-sobre h5 {
-      line-height: 22px; }
-    #page #solucoes-sobre p {
-      margin-top: 30px; }
-    #page #solucoes-sobre a:hover {
-      font-weight: bold; }
-  #page #reforma-titulo {
-    padding-top: 160px;
-    padding-bottom: 60px;
-    background-color: #f6f8fb; }
-    #page #reforma-titulo h2 {
-      color: #514aa3;
-      margin: 20px 0; }
-    #page #reforma-titulo h5 {
-      line-height: 22px; }
-    #page #reforma-titulo p {
-      margin-top: 30px; }
-    #page #reforma-titulo a:hover {
-      font-weight: bold; }
-  #page #reforma-form {
-    padding: 60px 0;
-    background-color: #514aa3;
-    color: #FFFFFF; }
-    #page #reforma-form input {
-      color: #FFFFFF;
-      display: inline-block; }
-    #page #reforma-form .cont {
-      width: 500px;
-      border: 1px solid #333;
-      padding: 4px; }
-    #page #reforma-form .select-wrapper {
-      background: url(wp-content/themes/reformase/images/anexar-foto.jpg) no-repeat;
-      background-size: cover;
-      display: block;
-      position: relative;
-      width: 33px;
-      height: 26px; }
-    #page #reforma-form #image_src {
-      width: 26px;
-      height: 26px;
-      margin-right: 100px;
-      opacity: 0;
-      filter: alpha(opacity=0);
-      /* IE 5-7 */ }
-    #page #reforma-form label {
-      display: block; }
-    #page #reforma-form h2 {
-      color: #FFFFFF;
-      margin-bottom: 10px; }
-    #page #reforma-form h5 {
-      color: #FFFFFF;
-      line-height: 22px; }
-    #page #reforma-form p {
-      color: #FFFFFF;
-      margin-top: 30px; }
-    #page #reforma-form a:hover {
-      font-weight: bold; }
-    #page #reforma-form ::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
-      color: #FFFFFF;
-      font-style: italic; }
-    #page #reforma-form ::-moz-placeholder {
-      /* Firefox 19+ */
-      color: #FFFFFF;
-      font-style: italic; }
-    #page #reforma-form :-ms-input-placeholder {
-      /* IE 10+ */
-      color: #FFFFFF;
-      font-style: italic; }
-    #page #reforma-form :-moz-placeholder {
-      /* Firefox 18- */
-      color: #FFFFFF;
-      font-style: italic; }
-  #page #contato-form {
-    padding: 60px 0;
-    padding-top: 160px; }
-    #page #contato-form input {
-      display: inline-block; }
-    #page #contato-form label {
-      display: block; }
-    #page #contato-form h1 {
-      color: #514aa3;
-      margin-bottom: 10px; }
-    #page #contato-form h5 {
-      line-height: 22px; }
-    #page #contato-form p {
-      margin-top: 30px; }
-    #page #contato-form ::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
-      color: #514aa3;
-      font-style: italic; }
-    #page #contato-form ::-moz-placeholder {
-      /* Firefox 19+ */
-      color: #514aa3;
-      font-style: italic; }
-    #page #contato-form :-ms-input-placeholder {
-      /* IE 10+ */
-      color: #514aa3;
-      font-style: italic; }
-    #page #contato-form :-moz-placeholder {
-      /* Firefox 18- */
-      color: #514aa3;
-      font-style: italic; }
-  #page #sobre-home {
-    padding: 60px 0; }
-    #page #sobre-home h4 {
-      color: #514aa3;
-      font-weight: bold;
-      margin-bottom: 10px; }
-  #page #maps .box-endereco {
-    background-color: #514aa3;
-    color: #FFFFFF;
-    position: relative;
-    z-index: 900;
-    left: 0;
-    right: 0;
-    width: 600px;
-    border-radius: 10px;
-    padding: 25px 0;
-    margin-top: 5%; }
-  #page #maps .contato-destaque {
-    font-size: 16px;
-    font-weight: bold; }
-  #page #maps .contato-destaqueb {
-    font-size: 16px; }
-  #page #orcamento {
-    padding: 60px 0; }
-  #page #contato-pag {
-    padding: 60px 0; }
-    #page #contato-pag h1 {
-      margin-bottom: 10px; }
-    #page #contato-pag div.info-right {
-      margin-top: 25px;
-      background-color: #b1842c;
-      color: white;
-      padding: 25px; }
-  #page #contato-redes .col-md-4 {
-    padding-top: 50px;
-    padding-bottom: 50px; }
-  #page #contato-redes .twitter {
-    background-color: #514aa3; }
-  #page #contato-redes .instagran {
-    background-color: #474099; }
-  #page #contato-redes .facebook {
-    background-color: #3e378c; }
+      margin-bottom: 29px; }
+    #page #sobre div.separador {
+      height: 1px;
+      width: 35%;
+      background-color: #FFFFFF;
+      display: inline-block;
+      margin-bottom: 30px; }
+    #page #sobre p {
+      margin-bottom: 15px; }
   @media (max-width: 991px) {
     #page .col-md-6 {
       margin-bottom: 10px; }
@@ -537,94 +379,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-top: 40px; }
     #page .form7 p {
       margin-bottom: 20px; }
-
-.terms {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: #FFF;
-  z-index: 999999999;
-  top: 0px;
-  overflow: scroll;
-  display: none; }
-
-.terms .close {
-  position: fixed;
-  width: 21px;
-  height: 21px;
-  top: 40px;
-  right: 40px;
-  background: url(../img/terms/close.svg);
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s; }
-
-.terms .close:hover {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg); }
-
-.terms .content {
-  position: relative;
-  display: table;
-  max-width: 700px;
-  width: 100%;
-  margin: 80px auto;
-  padding: 40px; }
-
-.terms .content h1 {
-  font-family: 'bree_rgbold';
-  font-weight: normal;
-  font-style: normal;
-  color: #414042 !important;
-  font-size: 22px !important;
-  display: block;
-  width: 100%;
-  text-align: center; }
-
-.terms .content h2 {
-  font-family: 'bree_rgbold';
-  font-weight: normal;
-  font-style: normal;
-  color: #414042 !important;
-  font-size: 16px !important;
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px !important;
-  margin-top: 25px !important; }
-
-.terms .content h3 {
-  font-family: 'bree_rgbold';
-  font-weight: normal;
-  font-style: normal;
-  color: #414042 !important;
-  font-size: 14px !important;
-  display: block;
-  width: 100%;
-  text-align: center; }
-
-.terms .content .text {
-  color: #414042;
-  font-size: 14px;
-  font-family: 'bree_ththin';
-  font-weight: normal;
-  font-style: normal;
-  margin: 10px 0px 25px 0px;
-  text-align: left; }
-
-.terms .content .text b {
-  font-family: 'bree_rgregular';
-  font-weight: normal;
-  font-style: normal; }
-
-.a1, .a2, .a3, .a4, .b1, .b2, .b3, .c1, .c2, .c3, .c4,
-.c5, .c6, .d1, .d2, .d3, .e2, .e4, .e5, .f1, .f2, .f4,
-.g2, .g3, .anima-a, .anima-b, .anima-c, .anima-d {
-  visibility: hidden; }
-
-.form-data, .form-foto {
-  display: none; }
 
 .videoWrapper {
   position: relative;

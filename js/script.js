@@ -3,21 +3,29 @@
     var $meuMenu = $('#principal'); // guardar o elemento na memoria para melhorar performance
     $(document).on('scroll', function () {
 
-        if (1 <= $(window).scrollTop()) {
+        if (($(window).height()/2) <= $(window).scrollTop()) {
             $meuMenu.addClass('fixar');
             $('.logo').attr("src", "/wp-content/themes/seimidigital/images/logo-small.png");
+            $('.logo').css('margin-top','5px');
         } else {
             $meuMenu.removeClass('fixar animated fadeInDown');
             $('.logo').attr("src", "/wp-content/themes/seimidigital/images/logo.png");
+            $('.logo').css('margin-top','0px');
         }
     });
 
   	$(function() {
 
     $('#page').fullpage({
-      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-      menu: '#menu',
-      scrollBar: true
+    	verticalCentered: true,
+		menu: '.menu-header',
+		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+		scrollBar: true,
+		responsiveWidth: 900,
+		css3: false,
+		afterResponsive: function(isResponsive){
+
+		}
     });
 
         $('.videoWrapper').click(function () {
