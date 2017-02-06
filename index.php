@@ -14,7 +14,7 @@ get_header(); ?>
 <div id="servicos" class="section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 animated fadeInUp wow">
+			<div class="col-md-8 col-md-offset-2">
 				<h2>Nossas Soluções</h2>
 				<h5>Somos uma agência de marketing digital especializada em soluções sob medida, 
 				oferecemos soluções em marketing, web, comunicação visual, geração de conteúdo, performance e design.</h5>
