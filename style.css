@@ -175,12 +175,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 30px; }
     #page #sobre h5 {
       margin-bottom: 29px; }
-    #page #sobre div.separador {
-      height: 1px;
-      width: 35%;
-      background-color: #FFFFFF;
-      display: inline-block;
-      margin-bottom: 30px; }
     #page #sobre p {
       margin-bottom: 15px; }
   @media (max-width: 991px) {
@@ -197,7 +191,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #vantagens-home .wrapb {
       margin-bottom: 15px; } }
   #page #footer {
-    padding: 50px 0;
+    padding: 60px 0;
     background-color: #514aa3;
     color: #FFFFFF; }
     #page #footer a {
@@ -220,6 +214,58 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           -o-transition: color 0.5s linear;
           /* Opera 10.5 */
           transition: color 0.5s linear; }
+    #page #footer div#redes_footer {
+      float: left; }
+      #page #footer div#redes_footer ul.redes_sociais_footer {
+        padding: 0;
+        height: 28px;
+        text-align: right;
+        list-style: none;
+        margin-bottom: 0; }
+      #page #footer div#redes_footer ul.redes_sociais_footer li:hover {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        /* For IE8 and earlier */ }
+      #page #footer div#redes_footer ul.redes_sociais_footer li {
+        margin-right: 5px; }
+      #page #footer div#redes_footer ul.redes_sociais_footer a {
+        display: inline-block;
+        width: 28px;
+        height: 28px; }
+      #page #footer div#redes_footer ul.redes_sociais_footer .youtube {
+        background-image: url("images/redes-bot.jpg");
+        background-position: 0px,center;
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        display: inline-block; }
+      #page #footer div#redes_footer ul.redes_sociais_footer .instagram {
+        background-image: url("images/redes-bot.jpg");
+        background-position: -35px,center;
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        display: inline-block; }
+      #page #footer div#redes_footer ul.redes_sociais_footer .twitter {
+        background-image: url("images/redes-bot.jpg");
+        background-position: -70px,center;
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        display: inline-block; }
+      #page #footer div#redes_footer ul.redes_sociais_footer .facebook {
+        background-image: url("images/redes-bot.jpg");
+        background-position: -106px,center;
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        display: inline-block; }
+  #page #contato {
+    padding: 50px 0; }
+    #page #contato h2 {
+      margin-bottom: 25px; }
+    #page #contato h5 {
+      margin-bottom: 25px; }
   #page .input-select {
     border: 2px solid #FFFFFF;
     background-color: #514aa3;
@@ -227,11 +273,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     width: 200px;
     border-radius: 6px; }
   #page .input-text {
-    border: 2px solid #FFFFFF;
-    background-color: #514aa3;
+    border: 2px solid #888a96;
     padding: 10px;
     border-radius: 6px;
-    width: 100%; }
+    margin-bottom: 10px; }
   #page .input-data {
     border: 2px solid #FFFFFF;
     background-color: #514aa3;
@@ -275,19 +320,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    padding: 15px 25px;
+    padding: 15px 45px;
     font-size: 16px;
     font-weight: bold; }
   #page .btn-roxo {
-    border: 2px solid #514aa3;
-    background-color: transparent;
-    color: #514aa3;
+    border: 2px solid #544dad;
+    background-color: #514aa3;
+    color: #FFFFFF;
     -webkit-transition-duration: 0.5s;
     /* Safari */
     transition-duration: 0.5s; }
   #page .btn-roxo:hover {
-    background-color: #514aa3;
-    color: #FFFFFF; }
+    background-color: transparent;
+    color: #514aa3; }
   #page .btn-branco {
     border: 2px solid #FFFFFF;
     background-color: transparent;
@@ -303,6 +348,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-top: 40px; }
     #page .form7 p {
       margin-bottom: 20px; }
+  #page .separador {
+    height: 1px;
+    width: 35%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 30px; }
 
 .videoWrapper {
   position: relative;

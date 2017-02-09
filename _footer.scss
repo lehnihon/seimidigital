@@ -1,5 +1,5 @@
 #footer{
-	padding:50px 0;
+	padding:60px 0;
 	background-color:#514aa3;
     color:#FFFFFF;
     a{
@@ -26,6 +26,81 @@
             }
 
         }
+    }
+
+    div#redes_footer{
+        float:left;
+
+        ul.redes_sociais_footer{
+            padding:0;
+            height: 28px;
+            text-align: right;
+            list-style:none;
+            margin-bottom:0;
+        }
+
+        ul.redes_sociais_footer li:hover{
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+        ul.redes_sociais_footer li{
+            margin-right: 5px;
+        }
+
+        ul.redes_sociais_footer a{
+            display: inline-block;
+            width:28px;
+            height:28px;
+        }
+
+        ul.redes_sociais_footer .youtube{
+            background-image: url("images/redes-bot.jpg");
+            background-position: 0px,center;
+            background-repeat:no-repeat;
+            width:28px;
+            height:28px;
+            display:inline-block;       
+        }
+
+        ul.redes_sociais_footer .instagram{
+            background-image: url("images/redes-bot.jpg");
+            background-position: -35px,center;
+            background-repeat:no-repeat;
+            width:28px;
+            height:28px;
+            display:inline-block;       
+        }
+
+        ul.redes_sociais_footer .twitter{
+            background-image: url("images/redes-bot.jpg");
+            background-position: -70px,center;
+            background-repeat:no-repeat;
+            width:28px;
+            height:28px;
+            display:inline-block;       
+        }
+
+        ul.redes_sociais_footer .facebook{
+            background-image: url("images/redes-bot.jpg");
+            background-position: -106px,center;
+            background-repeat:no-repeat;
+            width:28px;
+            height:28px;
+            display:inline-block;       
+        }
+    }
+}
+
+#contato{
+    padding:50px 0;
+
+    h2{
+        margin-bottom:25px;
+    }
+
+    h5{
+        margin-bottom:25px;
     }
 }
 

@@ -14,14 +14,14 @@ get_header(); ?>
 <div id="servicos" class="section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-8 col-md-offset-2 animated fadeInLeft wow" >
 				<h2>Nossas Soluções</h2>
 				<h5>Somos uma agência de marketing digital especializada em soluções sob medida, 
 				oferecemos soluções em marketing, web, comunicação visual, geração de conteúdo, performance e design.</h5>
 			</div>
 		</div><br><br><br>
 		<div class="row">
-			<div class="col-md-4 text-left">
+			<div class="col-md-4 text-left animated fadeInUp wow" data-wow-delay="0.15s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
 				<h4>Comunicação visual</h4>
 				<p>Aplicação da marca e definição de identidade visual para todos os tipos de impressos.</p>
@@ -32,7 +32,7 @@ get_header(); ?>
 					<li><span>Apresentação em Power Point</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left">
+			<div class="col-md-4 text-left animated fadeInUp wow" data-wow-delay="0.3s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
 				<h4>Comunicação visual</h4>
 				<p>Desenvolvemos soluções completas, de maneira eficiente, intuitiva e com estrutura responsiva.</p>
@@ -43,7 +43,7 @@ get_header(); ?>
 					<li><span>Land pages</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left">
+			<div class="col-md-4 text-left animated fadeInUp wow" data-wow-delay="0.45s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" />
 				<h4>Marketing digital</h4>
 				<p>Soluções essenciais para aproximar, fidelizar e criar engajamento da sua marca com os seus clientes.</p>
@@ -56,7 +56,7 @@ get_header(); ?>
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-4 text-left">
+			<div class="col-md-4 text-left animated fadeInUp wow" data-wow-delay="0.6s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
 				<h4>Lojas virtuais</h4>
 				<p>Nossa plataforma de loja virtual é intuitiva e gerenciável, assim você temuma visão completa do seu negócio..</p>
@@ -67,7 +67,7 @@ get_header(); ?>
 					<li><span>Gerenciador de frete e impostos</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left">
+			<div class="col-md-4 text-left animated fadeInUp wow" data-wow-delay="0.75s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
 				<h4>Links patrocinados e SEO</h4>
 				<p>Ajudamos sua empresa a aumentar as vendas otimizando seu site e com campanhas de links patrocinados.</p>
@@ -78,7 +78,7 @@ get_header(); ?>
 					<li><span>Relatórios mensais</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left">
+			<div class="col-md-4 text-left animated fadeInUp wow" data-wow-delay="0.9s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
 				<h4>Produção de vídeo</h4>
 				<p>Somos uma agência de marketing digital especializada em soluções sob medida, oferecemos soluções em marketing.</p>
@@ -96,7 +96,7 @@ get_header(); ?>
 <div id="sobre" class="section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3 animated fadeInLeft wow">
 				<h1>A Seimi Digital</h1>
 				<h5>Somos uma <strong>agência de marketing digital</strong> com muita experiência em comunicação e estratégia para empresas.</h5>
 				<div class="separador"></div>
@@ -104,16 +104,16 @@ get_header(); ?>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<p>Oferecemos soluções completas e eficientes em <strong>web, marketing, branding, geração de conteúdo e design</strong>, 
+				<p class="animated fadeInUp wow" data-wow-delay="0.2s">Oferecemos soluções completas e eficientes em <strong>web, marketing, branding, geração de conteúdo e design</strong>, 
 				sempre focados em resultados e performance.</p>
-				<p>Trabalhamos de forma integrada, sempre valorizando e fortalecendo a presença da sua marca na web, gerando 
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s">Trabalhamos de forma integrada, sempre valorizando e fortalecendo a presença da sua marca na web, gerando 
 				resultados cada vez melhores, por meio de <strong>planejamento e de muita força de vontade</strong> da nossa equipe.</p>
-				<p>Todas as nossas soluções são feitas sob medida, não importa o tamanho do seu projeto ou o porte da sua empresa. 
+				<p class="animated fadeInUp wow" data-wow-delay="0.4s">Todas as nossas soluções são feitas sob medida, não importa o tamanho do seu projeto ou o porte da sua empresa. 
 				Nosso objetivo é criar experiências únicas e verdadeiras para aproximar o cliente da sua marca.</p>
-				<p><strong>Somos um time extremamente focado</strong> no ambiente digital. É pensando em entregar soluções que superam 
+				<p class="animated fadeInUp wow" data-wow-delay="0.5s"><strong>Somos um time extremamente focado</strong> no ambiente digital. É pensando em entregar soluções que superam 
 				as expectativas, que nos faz desenvolver projetos digitais que transformam a vida das empresas para melhor. </p>
-				<p>Conte com a Seimi Digital para elaborar e executar o marketing digital da sua empresa. </p>
-				<p><strong>Nos comprometemos ao máximo com seu projeto, porque amamos o que fazemos!</strong></p>
+				<p class="animated fadeInUp wow" data-wow-delay="0.6s">Conte com a Seimi Digital para elaborar e executar o marketing digital da sua empresa. </p>
+				<p class="animated fadeInUp wow" data-wow-delay="0.7s"><strong>Nos comprometemos ao máximo com seu projeto, porque amamos o que fazemos!</strong></p>
 			</div>
 		</div>
 	</div>

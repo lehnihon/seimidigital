@@ -11,7 +11,7 @@
 	<div class="section">
 		<div id="contato">
 			<div class="container">
-				<div class="col-md-12">
+				<div class="col-md-12 animated fadeInLeft wow">
 					<?php echo do_shortcode('[contact-form-7 id="5" title="Contato"]'); ?>
 				</div>
 			</div>
@@ -19,24 +19,30 @@
 		<div id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<div class="col-md-12 text-center animated fadeInLeft wow" data-wow-delay="0.2s">
 						<div class="menu-footer clearfix">
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-residencial"; ?>">Reforma residencial</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-apartamento"; ?>">Reforma em apartamento</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."reforma-escritorio"; ?>">Reforma em escritório</a></div>								
-							<div class="menu-op"><a class="btTerms" href="#">Termos de uso</a></div>
-							<div class="menu-op"><a class="btPolitics" href="#">Política de privacidade</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
+							<div class="menu-op"><a href="#firstPage">início</a></div>
+							<div class="menu-op"><a href="#secondPage">nossas soluções</a></div>
+							<div class="menu-op"><a href="#3rdPage">a agência</a></div>						
+							<div class="menu-op"><a href="#4thpage">fale conosco</a></div>
+							<div id="redes_footer">
+								<ul class="redes_sociais_footer">
+					              <li class="youtube"><a target="_blank" href="#"></a></li>
+					              <li class="instagram"><a target="_blank" href="#"></a></li>
+					              <li class="twitter"><a target="_blank" href="#"></a></li>
+					              <li class="facebook"><a target="_blank" href="#"></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
+				</div><br><br>
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<div class="col-md-12 text-center animated fadeInLeft wow" data-wow-delay="0.4s">
 						<div class="separador"></div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 text-center text-footer">
+					<div class="col-md-12 text-center text-footer fadeInLeft wow" data-wow-delay="0.6s">
 						&copy; Copyright <?php echo date('Y') ?> - Esse site foi desenvolvido com muito carinho e muito, mas muito café!
 					</div>
 				</div>

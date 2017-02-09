@@ -72,11 +72,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.input-text{
-		border:2px solid #FFFFFF;
-		background-color:#514aa3;
+		border:2px solid #888a96;
 		padding:10px;
 		border-radius: 6px;
-		width: 100%;
+		margin-bottom:10px;
 	}
 
 	.input-data{
@@ -139,22 +138,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		-webkit-border-radius: 8px; 
 		-moz-border-radius: 8px; 
 		border-radius: 8px;
-		padding:15px 25px;
+		padding:15px 45px;
 		font-size:16px;
 		font-weight:bold;
 	}
 
 	.btn-roxo{
-		border:2px solid #514aa3;
-		background-color:transparent;
-		color:#514aa3;
+		border:2px solid #544dad;
+		background-color:#514aa3;
+		color:#FFFFFF;
+
 	    -webkit-transition-duration: 0.5s; /* Safari */
 	    transition-duration: 0.5s;
 	}
 
 	.btn-roxo:hover{
-		background-color:#514aa3;
-		color:#FFFFFF;
+		background-color:transparent;
+		color:#514aa3;
 	}
 
 	.btn-branco{
@@ -177,6 +177,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		p{
 			margin-bottom:20px;
 		}
+	}
+
+	.separador{
+		height:1px;
+		width:35%;
+		background-color:#FFFFFF;
+		display:inline-block;
+		margin-bottom:30px;
 	}
 
 }
