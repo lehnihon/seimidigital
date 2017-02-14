@@ -14,7 +14,7 @@ get_header(); ?>
 <div id="servicos">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 animated fadeInLeft wow" >
+			<div class="col-md-8 col-md-offset-2 animated fadeInLeft wow" data-wow-delay="0.15s">
 				<h2>Nossas Soluções</h2>
 				<h5>Somos uma agência de marketing digital especializada em soluções sob medida, 
 				oferecemos soluções em marketing, web, comunicação visual, geração de conteúdo, performance e design.</h5>
@@ -93,10 +93,10 @@ get_header(); ?>
 	</div>
 </div>
 
-<div id="sobre">
+<div id="sobre" class="animated fadeIn wow" data-wow-delay="0.3s">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 animated fadeInLeft wow">
+			<div class="col-md-6 col-md-offset-3 animated fadeInLeft wow" data-wow-delay="0.3s">
 				<h1>A Seimi Digital</h1>
 				<h5>Somos uma <strong>agência de marketing digital</strong> com muita experiência em comunicação e estratégia para empresas.</h5>
 				<div class="separador"></div>
@@ -104,24 +104,24 @@ get_header(); ?>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<p class="animated fadeInUp wow">Oferecemos soluções completas e eficientes em <strong>web, marketing, branding, geração de conteúdo e design</strong>, 
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s">Oferecemos soluções completas e eficientes em <strong>web, marketing, branding, geração de conteúdo e design</strong>, 
 				sempre focados em resultados e performance.</p>
-				<p class="animated fadeInUp wow">Trabalhamos de forma integrada, sempre valorizando e fortalecendo a presença da sua marca na web, gerando 
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s">Trabalhamos de forma integrada, sempre valorizando e fortalecendo a presença da sua marca na web, gerando 
 				resultados cada vez melhores, por meio de <strong>planejamento e de muita força de vontade</strong> da nossa equipe.</p>
-				<p class="animated fadeInUp wow">Todas as nossas soluções são feitas sob medida, não importa o tamanho do seu projeto ou o porte da sua empresa. 
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s">Todas as nossas soluções são feitas sob medida, não importa o tamanho do seu projeto ou o porte da sua empresa. 
 				Nosso objetivo é criar experiências únicas e verdadeiras para aproximar o cliente da sua marca.</p>
-				<p class="animated fadeInUp wow"><strong>Somos um time extremamente focado</strong> no ambiente digital. É pensando em entregar soluções que superam as expectativas, que nos faz desenvolver projetos digitais que transformam a vida das empresas para melhor. </p>
-				<p class="animated fadeInUp wow">Conte com a Seimi Digital para elaborar e executar o marketing digital da sua empresa. </p>
-				<p class="animated fadeInUp wow"><strong>Nos comprometemos ao máximo com seu projeto, porque amamos o que fazemos!</strong></p>
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s"><strong>Somos um time extremamente focado</strong> no ambiente digital. É pensando em entregar soluções que superam as expectativas, que nos faz desenvolver projetos digitais que transformam a vida das empresas para melhor. </p>
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s">Conte com a Seimi Digital para elaborar e executar o marketing digital da sua empresa. </p>
+				<p class="animated fadeInUp wow" data-wow-delay="0.3s"><strong>Nos comprometemos ao máximo com seu projeto, porque amamos o que fazemos!</strong></p>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div id="localizacao">
+<div id="localizacao" class="animated fadeIn wow" data-wow-delay="0.3s">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 painel text-center animated fadeInUp wow">
+			<div class="col-md-6 col-md-offset-3 painel text-center animated fadeInUp wow" data-wow-delay="0.3s">
 				<img alt="bandeira" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeira.jpg"; ?>" /><br><br>
 				<p>Nosso agência <br>
 					São Paulo - SP - Brasil</p><br>
