@@ -3,7 +3,7 @@
     var $meuMenu = $('#principal'); // guardar o elemento na memoria para melhorar performance
     $(document).on('scroll', function () {
 
-        if (($(window).height()/2) <= $(window).scrollTop()) {
+        if (offset <= $(window).scrollTop()-100) {
             $meuMenu.addClass('fixar');
             $('.logo').attr("src", "/wp-content/themes/seimidigital/images/logo-small.png");
             $('.logo').css('margin-top','5px');
@@ -14,19 +14,22 @@
         }
     });
 
+	$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+
   	$(function() {
-
-    $('#page').fullpage({
-    	verticalCentered: true,
-		menu: '.menu-header',
-		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-		scrollBar: true,
-		responsiveWidth: 900,
-		css3: false,
-		afterResponsive: function(isResponsive){
-
-		}
-    });
 
         $('.videoWrapper').click(function () {
             $('.videoWrapper iframe').css("pointer-events", "auto");

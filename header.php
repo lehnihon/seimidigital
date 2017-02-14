@@ -52,10 +52,10 @@ new WOW().init();
 			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871"></a></li>
 						</ul>
 						</div>
-						<div class="menu-op" data-menuanchor="4thpage"><a class="hvr-underline-from-left" href="#4thpage">fale conosco</a></div>				
-						<div class="menu-op" data-menuanchor="3rdPage"><a class="hvr-underline-from-left" href="#3rdPage">a agência</a></div>
-						<div class="menu-op" data-menuanchor="secondPage"><a class="hvr-underline-from-left" href="#secondPage">soluções</a></div>
-						<div class="menu-op" data-menuanchor="firstPage"><a class="hvr-underline-from-left" href="#firstPage">início</a></div>
+						<div class="menu-op"><a class="hvr-underline-from-left" href="#contato">fale conosco</a></div>				
+						<div class="menu-op"><a class="hvr-underline-from-left" href="#sobre">a agência</a></div>
+						<div class="menu-op"><a class="hvr-underline-from-left" href="#servicos">soluções</a></div>
+						<div class="menu-op"><a class="hvr-underline-from-left" href="#page">início</a></div>
 					</div>
 				</div>					
 			</div>

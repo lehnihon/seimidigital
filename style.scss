@@ -31,8 +31,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		color:#514aa3;
 	}
 
-	a:hover{
-		text-decoration: none;
+	a:hover, a:visited, a:link, a:active
+	{
+	    text-decoration: none;
 	}
 
 	h1,h2,h3,h4,h5,h6{
@@ -72,10 +73,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.input-text{
-		border:2px solid #888a96;
-		padding:10px;
+		border:1px solid #888a96;
+		padding:25px 10px;
 		border-radius: 6px;
-		margin-bottom:10px;
+		margin-bottom:15px;
 	}
 
 	.input-data{
