@@ -33,11 +33,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin: 0; }
   #page h1 {
     color: #514aa3;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold; }
   #page h2 {
     color: #514aa3;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold; }
   #page h4 {
     font-size: 18px; }
@@ -233,7 +233,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           /* Opera 10.5 */
           transition: color 0.5s linear; }
     #page #footer div#redes_footer {
-      float: left; }
+      display: inline-block; }
       #page #footer div#redes_footer ul.redes_sociais_footer {
         padding: 0;
         height: 28px;
