@@ -373,6 +373,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     display: inline-block;
     margin-bottom: 30px; }
 
+.wow {
+  visibility: hidden; }
+
 .videoWrapper {
   position: relative;
   padding-bottom: 26.25%;
