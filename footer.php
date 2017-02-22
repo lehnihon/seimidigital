@@ -31,10 +31,10 @@
 				<div class="col-md-12 text-center animated fadeInUp wow">
 					<div id="redes_footer">
 						<ul class="redes_sociais_footer">
-			              <li class="youtube"><a target="_blank" href="#"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.facebook.com/seimidigital/"></a></li>
 			              <li class="instagram"><a target="_blank" href="#"></a></li>
 			              <li class="twitter"><a target="_blank" href="https://www.instagram.com/seimidigital/"https://www.instagram.com/seimidigital/></a></li>
-			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/seimidigital/"></a></li>
+			              <li class="facebook"><a target="_blank" href="#"></a></li>
 						</ul>
 					</div>
 				</div>
