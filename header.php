@@ -47,8 +47,8 @@ new WOW().init();
 						<ul class="redes_sociais_header">
 			              <li class="youtube"><a target="_blank" href="#"></a></li>
 			              <li class="instagram"><a target="_blank" href="#"></a></li>
-			              <li class="twitter"><a target="_blank" href="#"></a></li>
-			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/Reforma-Se-1167940799992871"></a></li>
+			              <li class="twitter"><a target="_blank" href="https://www.instagram.com/seimidigital/"></a></li>
+			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/seimidigital/"></a></li>
 						</ul>
 						</div>
 						<div class="menu-op"><a class="hvr-underline-from-left" href="#contato">fale conosco</a></div>				
