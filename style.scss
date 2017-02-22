@@ -65,11 +65,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'footer';
 
 	.input-select{
-		border:2px solid #FFFFFF;
-		background-color:#514aa3;
-		padding:10px;
-		width:200px;
+		border:1px solid #888a96;
+		padding:16px 10px;
+		height:auto !important;
 		border-radius: 6px;
+		margin-bottom:15px;
 	}
 
 	.input-text{

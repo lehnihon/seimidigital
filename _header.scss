@@ -103,7 +103,7 @@ nav#principal{
 }
 
 nav.fixar {
-    padding:0 !important;
+    padding:15px !important;
     position:fixed !important;
     z-index: 1000 !important;
     margin-top: 0px !important;
@@ -111,7 +111,6 @@ nav.fixar {
     left: 0 !important;
     top: 0 !important;
     background-color: #514aa3 !important;
-    box-shadow: 0px 2px 2px #ececec;
     
     .menu-header{
         margin-top:5px !important;

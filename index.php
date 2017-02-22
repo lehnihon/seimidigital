@@ -34,7 +34,7 @@ get_header(); ?>
 			</div>
 			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.3s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
-				<h4>Comunicação visual</h4>
+				<h4>Criação de sites</h4>
 				<p>Desenvolvemos soluções completas, de maneira eficiente, intuitiva e com estrutura responsiva.</p>
 				<ul>
 					<li><span>Criação de sites</span></li>
@@ -81,7 +81,7 @@ get_header(); ?>
 			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.45s">
 				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
 				<h4>Produção de vídeo</h4>
-				<p>Somos uma agência de marketing digital especializada em soluções sob medida, oferecemos soluções em marketing.</p>
+				<p>Nós também criamos conteúdos em vídeo e animações, assim ajudamos sua empresa a se comunicar melhor com o público</p>
 				<ul>
 					<li><span>Vídeos institucionais</span></li>
 					<li><span>Tv indoor</span></li>
@@ -99,11 +99,11 @@ get_header(); ?>
 			<div class="col-md-6 col-md-offset-3  fadeInLeft wow" data-wow-delay="0.3s">
 				<h1>A Seimi Digital</h1>
 				<h5>Somos uma <strong>agência de marketing digital</strong> com muita experiência em comunicação e estratégia para empresas.</h5>
-				<div class="separador"></div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
+				<?php include 'images/foguete.svg'; ?><br><br><br>
 				<p class=" fadeInUp wow" data-wow-delay="0.3s">Oferecemos soluções completas e eficientes em <strong>web, marketing, branding, geração de conteúdo e design</strong>, 
 				sempre focados em resultados e performance.</p>
 				<p class=" fadeInUp wow" data-wow-delay="0.3s">Trabalhamos de forma integrada, sempre valorizando e fortalecendo a presença da sua marca na web, gerando 

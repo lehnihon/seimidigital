@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="shortcut icon" type="image/jpeg" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/fav.jpg"; ?>" />
+<link rel="shortcut icon" type="image/jpeg" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Seimi Digital FlavIcon.jpg"; ?>" />
 <?php wp_head(); ?>
 <script>
 new WOW().init();
@@ -36,11 +36,10 @@ new WOW().init();
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
-						><li><a href="<?php echo home_url( '/' )."sobre"; ?>">Quem Somos</a></li
-						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Reformas</a></li
-						><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li
-						><li><a href="<?php echo home_url( '/' )."reformas"; ?>">Quero um Orçamento</a></li>
+						<li><a href="#page">início</a></li
+						><li><a href="#servicos">soluções</a></li
+						><li><a href="#sobre">a agência</a></li
+						><li><a href="#contato">fale conosco</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">

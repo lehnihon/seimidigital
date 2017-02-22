@@ -20,10 +20,10 @@
 			<div class="row">
 				<div class="col-md-12 text-center animated fadeInUp wow">
 					<div class="menu-footer clearfix">
-						<div class="menu-op"><a href="#firstPage">início</a></div>
-						<div class="menu-op"><a href="#secondPage">nossas soluções</a></div>
-						<div class="menu-op"><a href="#3rdPage">a agência</a></div>						
-						<div class="menu-op"><a href="#4thpage">fale conosco</a></div>
+						<div class="menu-op"><a href="#page">início</a></div>
+						<div class="menu-op"><a href="#servicos">nossas soluções</a></div>
+						<div class="menu-op"><a href="#sobre">a agência</a></div>						
+						<div class="menu-op"><a href="#contato">fale conosco</a></div>
 					</div>
 				</div>
 			</div><br><br>
