@@ -131,20 +131,41 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page nav.fixar .menu-header {
       margin-top: 5px !important; }
   @media (max-width: 991px) {
+    #page nav.fixar {
+      padding: 5px !important; }
+    #page nav#principal {
+      background-color: #514aa3 !important;
+      padding: 10px 0 !important; }
     #page div.menu-responsivo {
       width: 50px;
       text-align: left;
       display: block;
-      padding: 10px; }
+      padding: 10px;
+      float: right;
+      position: relative; }
+      #page div.menu-responsivo .dropdown-menu {
+        left: -110px !important; }
     #page div.menu-header {
-      display: none; } }
+      display: none; }
+    #page .logo {
+      display: none !important; }
+    #page .logob {
+      display: block !important;
+      float: left;
+      margin-top: 15px; } }
   @media (min-width: 992px) {
     #page div.menu-responsivo {
       display: none; }
     #page ul.menu-header {
-      display: block; } }
+      display: block; }
+    #page .logo {
+      display: block !important; }
+    #page .logob {
+      display: none !important; } }
   #page #servicos {
     padding: 80px 0; }
+    #page #servicos .col-md-4 {
+      text-align: left; }
     #page #servicos h2 {
       margin-bottom: 10px; }
     #page #servicos h4 {
@@ -159,6 +180,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding-left: 15px; }
       #page #servicos ul li span {
         color: #858585; }
+    #page #servicos .row {
+      margin-bottom: 50px; }
+    #page #servicos .row:last-child {
+      margin-bottom: 0px; }
   #page #sobre {
     padding: 80px 0;
     background-image: url("images/backgroundb.jpg");
@@ -207,7 +232,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #vantagens-home .wrap {
       margin-bottom: 15px; }
     #page #vantagens-home .wrapb {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+    #page #servicos h2 {
+      margin-top: 30px; }
+    #page #servicos .col-md-4 {
+      margin-bottom: 50px !important; }
+    #page #servicos .row {
+      margin-bottom: 0px !important; }
+    #page #servicos h5 {
+      margin-bottom: 50px !important; } }
   #page #footer {
     padding: 60px 0;
     background-color: #514aa3;

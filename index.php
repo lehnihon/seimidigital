@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<div id="topo" class="container-fluid section">
+<div id="topo" class="container-fluid">
 	<div class="row">		
 		<?php putRevSlider( "banner-index" ) ?>		
 	</div>
@@ -19,10 +19,10 @@ get_header(); ?>
 				<h5>Somos uma agência de marketing digital especializada em soluções sob medida, 
 				oferecemos soluções em marketing, web, comunicação visual, geração de conteúdo, performance e design.</h5>
 			</div>
-		</div><br><br><br><br>
+		</div>
 		<div class="row">
-			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.15s">
-				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
+			<div class="col-md-4 fadeInUp wow" data-wow-delay="0.15s">
+				<img alt="comunicao visual" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
 				<h4>Comunicação visual</h4>
 				<p>Aplicação da marca e definição de identidade visual para todos os tipos de impressos.</p>
 				<ul>
@@ -32,8 +32,8 @@ get_header(); ?>
 					<li><span>Apresentação em Power Point</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.3s">
-				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
+			<div class="col-md-4   fadeInUp wow" data-wow-delay="0.3s">
+				<img alt="criacao de sites" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
 				<h4>Criação de sites</h4>
 				<p>Desenvolvemos soluções completas, de maneira eficiente, intuitiva e com estrutura responsiva.</p>
 				<ul>
@@ -43,8 +43,8 @@ get_header(); ?>
 					<li><span>Land pages</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.45s">
-				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" />
+			<div class="col-md-4   fadeInUp wow" data-wow-delay="0.45s">
+				<img alt="marketing digital" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" />
 				<h4>Marketing digital</h4>
 				<p>Soluções essenciais para aproximar, fidelizar e criar engajamento da sua marca com os seus clientes.</p>
 				<ul>
@@ -54,10 +54,10 @@ get_header(); ?>
 					<li><span>Campanhas patrocinadas</span></li>
 				</ul>
 			</div>
-		</div><br><br><br>
+		</div>
 		<div class="row">
-			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.15s">
-				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
+			<div class="col-md-4   fadeInUp wow" data-wow-delay="0.15s">
+				<img alt="lojas virtuais" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
 				<h4>Lojas virtuais</h4>
 				<p>Nossa plataforma de loja virtual é intuitiva e gerenciável, assim você temuma visão completa do seu negócio..</p>
 				<ul>
@@ -67,8 +67,8 @@ get_header(); ?>
 					<li><span>Gerenciador de frete e impostos</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.3s">
-				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
+			<div class="col-md-4   fadeInUp wow" data-wow-delay="0.3s">
+				<img alt="links patrocinados e seo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
 				<h4>Links patrocinados e SEO</h4>
 				<p>Ajudamos sua empresa a aumentar as vendas otimizando seu site e com campanhas de links patrocinados.</p>
 				<ul>
@@ -78,8 +78,8 @@ get_header(); ?>
 					<li><span>Relatórios mensais</span></li>
 				</ul>
 			</div>
-			<div class="col-md-4 text-left  fadeInUp wow" data-wow-delay="0.45s">
-				<img alt="logo" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
+			<div class="col-md-4   fadeInUp wow" data-wow-delay="0.45s">
+				<img alt="producao de video" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
 				<h4>Produção de vídeo</h4>
 				<p>Nós também criamos conteúdos em vídeo e animações, assim ajudamos sua empresa a se comunicar melhor com o público</p>
 				<ul>

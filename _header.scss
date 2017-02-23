@@ -116,15 +116,40 @@ nav.fixar {
     }
 }
 
-@media (max-width: 991px) {  
+@media (max-width: 991px) {
+    nav.fixar {
+        padding:5px !important;
+    }
+
+    nav#principal{
+        background-color: #514aa3 !important;
+        padding:10px 0 !important;
+    }
+
     div.menu-responsivo{
         width: 50px;
         text-align: left;
         display: block;
         padding: 10px;
+        float:right;
+        position:relative;
+
+        .dropdown-menu{
+            left:-110px !important;
+        }
     }
     div.menu-header{
         display: none;
+    }
+
+    .logo{
+        display:none !important;
+    }
+
+    .logob{
+        display:block !important;
+        float:left;
+        margin-top:15px;
     }
 }
 
@@ -134,5 +159,12 @@ nav.fixar {
     }
     ul.menu-header{
         display: block;
-    }   
+    }
+    .logo{
+        display:block !important;
+    }
+
+    .logob{
+        display:none !important;
+    }
 }

@@ -28,9 +28,7 @@ new WOW().init();
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-left">
-					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro logo img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" /></a>
-				</div>
-				<div class="col-md-9">
+					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>" /><img alt="logo" class="e-claro logob" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" /></a>
 					<div class="menu-responsivo">
 						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
@@ -41,7 +39,9 @@ new WOW().init();
 						><li><a href="#sobre">a agência</a></li
 						><li><a href="#contato">fale conosco</a></li>
 						</ul>								
-					</div>						
+					</div>
+				</div>
+				<div class="col-md-9">
 					<div class="menu-header clearfix">
 						<div id="redes">
 						<ul class="redes_sociais_header">
